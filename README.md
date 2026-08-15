@@ -18,6 +18,33 @@
 - 自动将当前草稿保存在本机浏览器中，刷新页面后仍可恢复
 - 所有文档仅在本机浏览器中处理，不会上传到服务器
 
+## Release 便携版
+
+不想安装开发环境的用户，可以从 [GitHub Releases](https://github.com/Zx-J28/Markdown-Studio/releases) 下载对应平台的便携包：
+
+| 平台 | Release 附件 | 启动方式 | 额外要求 |
+| --- | --- | --- | --- |
+| Windows 10/11 | `Markdown-Studio-v1.0.0-Windows-Portable.zip` | 解压后双击 `Start-Markdown-Studio.bat` | 无 |
+| macOS 11+ | `Markdown-Studio-v1.0.0-macOS-Portable.zip` | 解压后双击 `Start-Markdown-Studio.command` | Python 3 |
+| Linux x64 | `Markdown-Studio-v1.0.0-Linux-Portable.tar.gz` | 解压后运行 `./Start-Markdown-Studio.sh` | Python 3 |
+
+Windows 便携版不需要安装 Node.js、npm 或其他依赖。macOS 和 Linux 版本使用系统中的 Python 3 启动本地服务；Apple Silicon 与 Intel Mac 均可使用同一个包。
+
+所有便携版都会在本机 `127.0.0.1` 上启动服务并自动打开默认浏览器。关闭启动终端或按 `Control+C` 即可停止应用。
+
+### macOS 首次运行
+
+如果 macOS 阻止启动，请按住 `Control` 点击 `Start-Markdown-Studio.command`，选择“打开”并确认一次。
+
+### Linux 首次运行
+
+如果启动脚本没有执行权限，请运行：
+
+```bash
+chmod +x Start-Markdown-Studio.sh
+./Start-Markdown-Studio.sh
+```
+
 ## 环境要求
 
 - Node.js 22.13 或更高版本
