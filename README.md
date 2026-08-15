@@ -86,23 +86,6 @@ npm run preview
 
 构建结果位于 `dist` 目录。该目录属于生成文件，不需要提交到 GitHub。
 
-## 上传到 GitHub
-
-GitHub 仅用于保存和分享本项目源码，不负责直接运行编辑器：
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/Zx-J28/Markdown-Studio.git
-git push -u origin main
-```
-
-请使用 Git 命令提交项目。`node_modules`、`dist` 和本地缓存已写入 `.gitignore`，不应上传到仓库。
-
-其他用户克隆仓库后，同样运行 `npm install` 和 `npm run dev` 即可在本机使用。
-
 ## 项目结构
 
 ```text
