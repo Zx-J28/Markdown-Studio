@@ -2,8 +2,6 @@
 
 一个在自己电脑上运行的 Markdown 编辑站。项目使用 React、TypeScript 与 Vite，不依赖远程服务。
 
-![React](https://img.shields.io/badge/React-19-151713)
-![Vite](https://img.shields.io/badge/Vite-Local-ff5c35)
 [![License](https://img.shields.io/badge/license-MIT-d6ff3f)](https://github.com/Zx-J28/Markdown-Studio?tab=MIT-1-ov-file)
 
 ## 功能
