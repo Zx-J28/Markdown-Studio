@@ -77,15 +77,6 @@ http://127.0.0.1:5173
 
 使用结束后，在终端按 `Ctrl + C` 停止本地服务。
 
-## 构建本地版本
-
-```bash
-npm run build
-npm run preview
-```
-
-构建结果位于 `dist` 目录。该目录属于生成文件，不需要提交到 GitHub。
-
 ## 项目结构
 
 ```text
